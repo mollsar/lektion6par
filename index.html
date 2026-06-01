@@ -10,11 +10,22 @@
   <h1>Min stora sida</h1>
   <button onclick="hej()">En magisk knapp som gör något</button>
   <p id="output"></p>
+
+    <footer style="background:#222; color:#fff; padding:20px; text-align:center; margin-top:40px;">
+    <p>&copy; 2026 Mitt Projekt. Alla rättigheter förbehållna.</p>
+    <p>
+    <a href="#" style="color:#4af; margin:0 10px;">Om oss</a>
+    <a href="#" style="color:#4af; margin:0 10px;">Kontakt</a>
+    <a href="#" style="color:#4af; margin:0 10px;">Integritet</a>
+    </p>
+    </footer>
+
   <script>
     function hej() {
       document.getElementById("output").textContent = "Hallå där ditt lilla grodmonster " + new Date().toLocaleTimeString();
     }
   </script>
+
 </body>
 
 </html>
