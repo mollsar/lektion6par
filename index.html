@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head><meta charset="UTF-8"><title>Övning</title></head>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Övning</title>
+</head>
+
 <body>
-  <h1>Min övning</h1>
-  <button onclick="hej()">Klicka här</button>
-  <p id="output"></p>
-  <script>
-    function hej() {
-      document.getElementById("output").textContent = "Hej " + new Date().toLocaleTimeString();
-    }
-  </script>
+	<h1>Min övning</h1>
+	<button onclick="hej()">Klicka INTE här</button>
+	<p id="output"></p>
+	<script>
+		function sayHello() {
+			document.getElementById("output").textContent = "Hello " + new Date().toLocaleTimeString();
+		}
+	</script>
 </body>
+
 </html>
